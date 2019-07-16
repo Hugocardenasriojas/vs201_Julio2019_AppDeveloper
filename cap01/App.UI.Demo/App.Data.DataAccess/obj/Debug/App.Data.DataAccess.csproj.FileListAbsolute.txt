@@ -1,0 +1,6 @@
+C:\HOCR\VS201Developer\cap01\App.UI.Demo\App.Data.DataAccess\bin\Debug\App.Data.DataAccess.dll
+C:\HOCR\VS201Developer\cap01\App.UI.Demo\App.Data.DataAccess\bin\Debug\App.Data.DataAccess.pdb
+C:\HOCR\VS201Developer\cap01\App.UI.Demo\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.csprojAssemblyReference.cache
+C:\HOCR\VS201Developer\cap01\App.UI.Demo\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.csproj.CoreCompileInputs.cache
+C:\HOCR\VS201Developer\cap01\App.UI.Demo\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.dll
+C:\HOCR\VS201Developer\cap01\App.UI.Demo\App.Data.DataAccess\obj\Debug\App.Data.DataAccess.pdb
