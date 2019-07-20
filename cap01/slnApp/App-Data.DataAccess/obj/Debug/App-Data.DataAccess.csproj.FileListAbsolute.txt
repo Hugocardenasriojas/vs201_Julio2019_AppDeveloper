@@ -1,0 +1,9 @@
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App-Data.DataAccess.dll
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App-Data.DataAccess.pdb
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csprojAssemblyReference.cache
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csproj.CoreCompileInputs.cache
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.dll
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.pdb
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App.Entities.Base.dll
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App.Entities.Base.pdb
+C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csproj.CopyComplete
