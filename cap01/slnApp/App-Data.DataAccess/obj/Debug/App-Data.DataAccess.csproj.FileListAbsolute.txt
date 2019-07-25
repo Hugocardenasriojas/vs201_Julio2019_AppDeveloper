@@ -7,3 +7,12 @@ C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAc
 C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App.Entities.Base.dll
 C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App.Entities.Base.pdb
 C:\HOCR\VS201Developer\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csproj.CopyComplete
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App-Data.DataAccess.dll
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App-Data.DataAccess.pdb
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App.Entities.Base.dll
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\bin\Debug\App.Entities.Base.pdb
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csprojAssemblyReference.cache
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csproj.CoreCompileInputs.cache
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.csproj.CopyComplete
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.dll
+E:\vsnet\clase005\github\vs201_Julio2019_AppDeveloper\cap01\slnApp\App-Data.DataAccess\obj\Debug\App-Data.DataAccess.pdb

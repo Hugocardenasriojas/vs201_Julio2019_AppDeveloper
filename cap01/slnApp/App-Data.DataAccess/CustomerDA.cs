@@ -23,7 +23,7 @@ namespace App.Data.DataAccess
                 var cmd = cnx.CreateCommand();
                 cmd.CommandText = "usp_GetCustomerxName";
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.Add(new SqlParameter("@Name", name));
+                cmd.Parameters.Add(new SqlParameter("@FullName", name));
 
                 var reader = cmd.ExecuteReader();
 
