@@ -42,8 +42,8 @@ namespace App_Data.DataAccess
                     commandCab.Parameters.Add(
                         new SqlParameter("@Total", invoice.Total));
                     //Obteniendo el codigo secuencial
+                    //Aqui se ejecuta el commandcab, 
                     var id = Convert.ToInt32(commandCab.ExecuteScalar());
-
                     /*
                     BillingAddress nvarchar(70), 
                     @BillingCity nvarchar(40), 
@@ -52,8 +52,30 @@ namespace App_Data.DataAccess
                     @BillingPostalCode nvarchar(40), 
                     @Total
                      */
+                    foreach (var lines in invoice.InvoiceLine)
+                    {
+                        var commandDet = cnx.CreateCommand();
+                        commandDet.CommandText = "usp_InsertInvoiceLine";
+                        commandDet.CommandType = CommandType.StoredProcedure;
+                        commandDet.Parameters.Add(new SqlParameter("@InvoiceId", id));
+                        commandDet.Parameters.Add(new SqlParameter("@TrackId", lines.TrackId));
+                        commandDet.Parameters.Add(new SqlParameter("@UnitPrice", lines.UnitPrice));
+                        commandDet.Parameters.Add(new SqlParameter("@Quantity", lines.Quantity));
+                        commandDet.ExecuteNonQuery();
+                        /*
+                        @InvoiceId int, 
+                        @TrackId int, 
+                        @UnitPrice numeric(10,2), 
+                        @Quantity int
+                        */
+
+                    }
+                    //commandCab.ExecuteNonQuery();
+
                     //
                     transaction.Commit();
+                    result = id;
+
                 }
                 catch(Exception ex)
                 {
@@ -62,6 +84,11 @@ namespace App_Data.DataAccess
                 }
             }
                 return result;
+        }
+
+        public object insertinvoice(Invoice invoice)
+        {
+            throw new NotImplementedException();
         }
     }
 }
