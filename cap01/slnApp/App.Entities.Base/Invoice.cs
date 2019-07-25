@@ -23,6 +23,6 @@ namespace App.Entities.Base
             [BillingCountry], [BillingPostalCode], 
             [Total]
         */
-        public List<InvoiceLine> InvoiceLine { get; set; }
+        public List<InvoiceLine> InvoiceLine { get; set; }//Se crea lista de tipo de la clase a enlazar
     }
 }

@@ -45,6 +45,7 @@
     <Compile Include="ArtistDA.cs" />
     <Compile Include="BaseDA.cs" />
     <Compile Include="CustomerDA.cs" />
+    <Compile Include="InvoiceDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
