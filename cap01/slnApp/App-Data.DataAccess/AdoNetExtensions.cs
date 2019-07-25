@@ -7,19 +7,12 @@ using System.Threading.Tasks;
 
 namespace App_Data.DataAccess
 {
-    public class BaseDA
+    public static class AdoNetExtensions
+        //Extensiones de funciones.
     {
-        public string ConnectionString
-
-        {
-            get
-            {
-                //
-                var cnxString = "SERVER=S300-ST;Database=Chinook;USER ID=sa;PASSWORD=sql;";
-                return cnxString;
-            }
-        }
-        public string GetStringValue(IDataReader reader, string campo)
+        public static string GetStringValue(this IDataReader reader, string campo)
+            //Al tener la palabra reservada this, no se comporta como parametro
+            //Al colocar this, se esta extendiendo la clase this IDataReader
         {
             //<condicion>?<Valor Verdad>: <Valor Falso>
             //GetOrdinal, obtiene la posicion del campo
@@ -27,5 +20,4 @@ namespace App_Data.DataAccess
                                 ? null : reader.GetString(reader.GetOrdinal(campo));
         }
     }
-    
 }
