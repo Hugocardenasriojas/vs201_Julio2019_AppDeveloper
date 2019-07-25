@@ -32,8 +32,8 @@ namespace App.Data.DataAccess
                     var customer = new Customer();
                     
                     customer.CustomerId = reader.GetInt32(reader.GetOrdinal("CustomerId"));
-                    customer.FirstName = reader.GetString(reader.GetOrdinal("FirstName"));
-                    customer.LastName = reader.GetString(reader.GetOrdinal("LastName"));
+                    customer.FirstName = reader.GetStringValue("FirstName");
+                    customer.LastName = reader.GetStringValue("LastName");
                     //<condicion>?<Valor Verdad>: <Valor Falso>
                     customer.Company = reader.GetStringValue("Company");
 
@@ -47,7 +47,7 @@ namespace App.Data.DataAccess
                     customer.Phone = reader.GetStringValue("Phone");
                     customer.Fax = reader.GetStringValue("Fax");
                     customer.Email = reader.GetStringValue("Email");
-                    customer.SupportRepId = reader.GetInt32(reader.GetOrdinal("SupportRepId"));
+                    customer.SupportRepId = reader.GetInt32Null("SupportRepId");
 
                     resultado.Add(customer);
                 }
