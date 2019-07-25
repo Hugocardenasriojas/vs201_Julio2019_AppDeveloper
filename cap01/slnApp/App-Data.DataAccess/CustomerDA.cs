@@ -31,7 +31,7 @@ namespace App.Data.DataAccess
                 {
                     var customer = new Customer();
                     
-                    customer.CustomerId = reader.GetInt32(reader.GetOrdinal("CustomerId"));
+                    customer.CustomerId = reader.GetInt32Value("CustomerId");
                     customer.FirstName = reader.GetStringValue("FirstName");
                     customer.LastName = reader.GetStringValue("LastName");
                     //<condicion>?<Valor Verdad>: <Valor Falso>

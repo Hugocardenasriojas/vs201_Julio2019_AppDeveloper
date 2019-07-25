@@ -28,5 +28,13 @@ namespace App_Data.DataAccess
             return reader.IsDBNull(reader.GetOrdinal(campo))
                                 ? new Nullable<Int32>() : reader.GetInt32 (reader.GetOrdinal(campo));
         }
+        public static int GetInt32Value(this IDataReader reader, string campo)
+        //Al tener la palabra reservada this, no se comporta como parametro
+        //Al colocar this, se esta extendiendo la clase this IDataReader
+        {
+            //<condicion>?<Valor Verdad>: <Valor Falso>
+            //GetOrdinal, obtiene la posicion del campo
+            return reader.GetInt32(reader.GetOrdinal(campo));
+        }
     }
 }
